@@ -13,7 +13,7 @@
     <properties>
         <sbtVersion>0.12</sbtVersion>
         <scalaVersion>2.9.2</scalaVersion>
-        <extraDependencyAttributes>+e:scalaVersion:#@#:+2.9.2:#@#:+revision:#@#:+0.5.0:#@#:+module:#@#:+sbt-git:#@#:+e:sbtVersion:#@#:+0.12:#@#:+organisation:#@#:+com.typesafe.sbt:#@#:+branch:#@#:+@#:NULL:#@:#@#:</extraDependencyAttributes>
+        <extraDependencyAttributes>+e:scalaVersion:#@#:+2.9.2:#@#:+revision:#@#:+0.1.0:#@#:+module:#@#:+ensime-sbt-cmd:#@#:+e:sbtVersion:#@#:+0.12:#@#:+organisation:#@#:+org.ensime:#@#:+branch:#@#:+@#:NULL:#@:#@#: +e:scalaVersion:#@#:+2.9.2:#@#:+revision:#@#:+0.5.0:#@#:+module:#@#:+sbt-git:#@#:+e:sbtVersion:#@#:+0.12:#@#:+organisation:#@#:+com.typesafe.sbt:#@#:+branch:#@#:+@#:NULL:#@:#@#:</extraDependencyAttributes>
     </properties>
     <dependencies>
         <dependency>
@@ -29,17 +29,14 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.ensime</groupId>
+            <artifactId>ensime-sbt-cmd</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+        <dependency>
             <groupId>com.typesafe.sbt</groupId>
             <artifactId>sbt-git</artifactId>
             <version>0.5.0</version>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>jgitrepo</id>
-            <name>jgit-repo</name>
-            <url>http://download.eclipse.org/jgit/maven/</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
 </project>
