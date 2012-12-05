@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.hexx</groupId>
+    <artifactId>pomodoro-timer_2.9.2</artifactId>
+    <packaging>jar</packaging>
+    <description>Pomodoro Timer</description>
+    <version>0.0.1</version>
+    <name>Pomodoro Timer</name>
+    <organization>
+        <name>com.github.hexx</name>
+    </organization>
+    <properties>
+        <extraDependencyAttributes>+e:scalaVersion:#@#:+2.9.2:#@#:+revision:#@#:+0.1.0:#@#:+module:#@#:+ensime-sbt-cmd:#@#:+e:sbtVersion:#@#:+0.12:#@#:+organisation:#@#:+org.ensime:#@#:+branch:#@#:+@#:NULL:#@:#@#:</extraDependencyAttributes>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ensime</groupId>
+            <artifactId>ensime-sbt-cmd</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>launcher-interface</artifactId>
+            <version>0.12.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-swing</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+    </dependencies>
+</project>
