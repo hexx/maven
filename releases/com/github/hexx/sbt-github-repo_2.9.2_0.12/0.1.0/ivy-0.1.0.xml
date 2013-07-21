@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.github.hexx" module="sbt-github-repo" revision="0.1.0" status="release" publication="20130719203435" e:scalaVersion="2.9.2" e:sbtVersion="0.12">
+	<info organisation="com.github.hexx" module="sbt-github-repo" revision="0.1.0" status="release" publication="20130721192309" e:scalaVersion="2.9.2" e:sbtVersion="0.12">
 		<description>
 		sbt-github-repo
 		</description>
